@@ -1,0 +1,58 @@
+/*body
+{
+    background-image:url(scenery.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px 700px ;
+    height: 680px;
+    background-color: darkgrey;
+}*/
+.navigation
+{
+    background-color: rgb(201, 219, 136);
+    opacity: .70;
+    height: 80px;
+    width:1450px;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    font-size: 30px;
+    border-bottom: 5px solid rgb(88, 80, 70);
+    
+        
+}
+.table1
+{
+    font-size: 30px;
+    position: absolute;
+    left: 350px;
+    top: 23px;
+    border-collapse: collapse;
+    font-family: 'Lobster', cursive;
+}
+table td
+{
+    border-left: 3px solid slategrey;
+    border-right: 3px solid slategrey;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+table td:hover
+{
+    background-color: cornflowerblue;
+    text-decoration: underline;
+    
+}
+
+.sitename
+{
+    position: relative;
+    top: 5px;
+    left: 40px;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 3px;
+    color: rgb(240, 8, 8);
+    
+}

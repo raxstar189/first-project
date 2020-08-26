@@ -1,0 +1,101 @@
+body
+{
+    
+    background-color: rgb(240, 231, 222);
+}
+.navigation
+{
+    background-color: rgba(127, 234, 253, 0.973);
+    opacity: .70;
+    height: 80px;
+    width:1450px;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    font-size: 30px;
+    border-bottom: 3px solid rgb(88, 80, 70);
+    
+        
+}
+.table1
+{
+    font-size: 30px;
+    position: absolute;
+    left: 350px;
+    top: 23px;
+    border-collapse: collapse;
+    font-family: 'Lobster', cursive;
+}
+table td
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+table td:hover
+{
+    background-color: cornflowerblue;
+    text-decoration: underline;
+    
+}
+
+.sitename
+{
+    position: relative;
+    top: 5px;
+    left: 40px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+    color: rgb(13, 29, 255);
+    
+}
+
+.disclosure
+{
+    font-family: 'Righteous', cursive;
+    font-size:50px;
+    white-space: nowrap;
+    display: inline-block;
+    height: 100px;
+    width: 450px;
+    position: relative;
+    top: 150px;
+    left: 350px;
+}
+
+.disclosure::before
+{
+   background-image: url('amar thobra.jpg');
+   background-size: contain;
+   border-radius: 100px;
+   content: '';
+   height: 200px;
+   width: 200px;
+   position: absolute;
+   right: 500px;
+    bottom: 1px;
+    top: 2px;   
+}
+tr a
+{
+    text-decoration: none;
+    color: black;
+}
+.bio1
+{
+    display: inline-block;
+    background-color: beige;
+    height: 150px;
+    width: 600px;
+    position: absolute;
+    top: 240px;
+    right: 430px;
+    font-size: 27px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 1px 1px 5px 5px darkgray;
+    font-family: 'Srisakdi', cursive;
+    color: rgb(21, 131, 107);
+}
